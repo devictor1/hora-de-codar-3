@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBA</title>
+    <script>
+        function gozary (){
+            alert('bumbameuboi');
+        }
+
+        gozary();
+
+        function gozary3 (nome){
+            alert(nome + ' vaitomanocu')
+        }
+
+        gozary3('cleber bambam');
+        gozary3('eber bam');
+        gozary3('cambam');
+        gozary3('casm');
+        gozary3('sbambam');
+        gozary3('clm');
+        gozary3('cdasdam');
+
+
+        function mamada (mako, horario){
+            if (horario == 'manhã' || horario == 'manha') {
+                alert("Bom dia " + mako + "!!!");
+            } else if (horario == 'tarde' || horario == 'Tarde') {
+                alert("Boa tarde " + mako + "!!!");
+            } else if (horario == 'Noite' || horario == 'noite') {
+                alert("Boa noite " + mako + "!!!")
+            } else alert('ih rapeize não sei o q te dizer')
+        }
+
+        mamada('tome tome', 'manha')
+        mamada('tome tome', 'Noite')
+        mamada('tome tome', 'manhã')
+        mamada('tome tome', 'Tarde')
+        mamada('tome tome', 'noite')
+        mamada('tome tome', 'tarde')
+
+        var escolha = parseInt(prompt('Selecione uma das opções seguintes digitando o número respectivo: 1) Verificar Saldo  2) Saque  3) Depósito  4) Sair do caixa'))
+        var saldo = 19.6;
+
+        function inicio(){
+
+        if (escolha === 1) {
+            ver_saldo();
+        } else if (escolha === 2) {
+            fazer_deposito();
+        } else if (escolha === 3) {
+            fazer_saque();
+        } else if (escolha === 4) {
+            sair();
+        } else {
+            erro();
+        }
+        }
+
+        function ver_saldo(){
+
+        }
+
+        function fazer_deposito(){
+            var deposito = parseFloat(prompt('Qual o valor do seu depósito?'))
+            if (deposito <= 0 || isNaN(deposito));{
+                alert('Operação não autorizada, valor deve ser maior que zero');
+            } else if ()
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
